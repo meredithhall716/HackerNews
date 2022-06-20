@@ -1,0 +1,57 @@
+.background {
+    background-color: rgb(246, 246, 240);
+    width: auto;
+
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans serif;
+    margin:auto;
+    max-width: 90%;
+}
+
+.navbar {
+    background-color: rgb(251, 91, 0);
+    display: grid;
+    grid-template-columns: 30px auto 50px;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.logo {
+    border: 1px white solid;
+    
+}
+
+#title {
+    font-size: 36;
+    font-weight: bold;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 15;
+    
+}
+
+.footbar {
+    display: flex;
+    justify-content: center;
+
+}
+
+li {
+    font-size: smaller;
+    padding: 5px
+}
+
+.box {
+    text-align: center;
+    padding: 10px;
+    font-size: smaller;
+}
+
+hr {
+    color: rgb(251, 91, 0);
+}
